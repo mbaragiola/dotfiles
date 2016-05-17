@@ -1,0 +1,25 @@
+# Yahoo Settings
+set my_yahoopw="pw"
+set imap_user="user@yahoo.com"
+set imap_pass=$my_yahoopw
+set folder="imaps://imap.mail.yahoo.com:993/"
+set spoolfile="+INBOX"
+set postponed="imaps://imap.mail.yahoo.com:993/Drafts"
+set record="imaps://imap.mail.yahoo.com:993/Sent"
+set smtp_url="smtps://user%40yahoo.com@smtp.mail.yahoo.com:465"
+set smtp_pass=$my_yahoopw
+
+# Extra Settings
+set from="custom@email.com"
+set realname="Real Name"
+set editor="vi"
+set timeout=10
+set mail_check=60
+set sort=date-received
+mailboxes "=Inbox" "=Personal"
+
+# Remember to mkdir -p ~/.mutt/cache/headers
+# and mkdir -p ~/.mutt/cache/bodies,
+# otherwise won't work.
+set header_cache="~/.mutt/cache/headers"
+set message_cachedir="~/.mutt/cache/bodies"
