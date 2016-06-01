@@ -16,7 +16,7 @@ set editor="vi"
 set timeout=10
 set mail_check=60
 set sort=date-received
-mailboxes "=Inbox" "=Personal"
+mailboxes "=Inbox" "=Personal" "=OpenBSD-announce"
 
 # Remember to mkdir -p ~/.mutt/cache/headers
 # and mkdir -p ~/.mutt/cache/bodies,
