@@ -4,6 +4,7 @@ set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 syntax on
+set number
 set relativenumber
 set showmatch
 set encoding=utf-8
