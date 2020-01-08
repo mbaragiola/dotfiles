@@ -16,4 +16,9 @@ Plug 'tpope/vim-fugitive'
 Plug 'scrooloose/nerdtree'
 Plug 'junegunn/fzf'
 Plug 'rking/ag.vim'
+Plug 'Yggdroot/indentLine'
+Plug 'w0rp/ale'
 call plug#end()
+
+let g:indentLine_setColors = 5
+let g:indentLine_char_list = ['|']
