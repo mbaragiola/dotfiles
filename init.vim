@@ -18,6 +18,7 @@ Plug 'junegunn/fzf'
 Plug 'rking/ag.vim'
 Plug 'Yggdroot/indentLine'
 Plug 'w0rp/ale'
+Plug 'ludovicchabant/vim-gutentags' " jump to function declaration
 call plug#end()
 
 let g:indentLine_setColors = 5
