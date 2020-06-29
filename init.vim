@@ -12,12 +12,11 @@ set fileencoding=utf-8
 set clipboard=unnamedplus,unnamed " Use system wide clipboard by default
 
 call plug#begin('~/.config/nvim/plugged')
-Plug 'tpope/vim-fugitive'
-Plug 'scrooloose/nerdtree'
-Plug 'junegunn/fzf'
-Plug 'rking/ag.vim'
+Plug 'tpope/vim-fugitive' " git
+Plug 'scrooloose/nerdtree' " tree view
+Plug 'rking/ag.vim' " ag search
 Plug 'Yggdroot/indentLine'
-Plug 'w0rp/ale'
+Plug 'w0rp/ale' " linting
 Plug 'ludovicchabant/vim-gutentags' " jump to function declaration
 call plug#end()
 
