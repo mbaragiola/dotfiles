@@ -11,6 +11,7 @@ set encoding=utf-8
 set fileencoding=utf-8
 set clipboard=unnamedplus,unnamed " Use system wide clipboard by default
 
+" See https://github.com/junegunn/vim-plug
 call plug#begin('~/.config/nvim/plugged')
 Plug 'tpope/vim-fugitive' " git
 Plug 'scrooloose/nerdtree' " tree view
