@@ -10,6 +10,7 @@ set showmatch
 set encoding=utf-8
 set fileencoding=utf-8
 set clipboard=unnamedplus,unnamed " Use system wide clipboard by default
+set conceallevel=0
 
 " See https://github.com/junegunn/vim-plug
 call plug#begin('~/.config/nvim/plugged')
