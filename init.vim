@@ -1,4 +1,5 @@
 " Place this file at $HOME/.config/nvim/init.vim
+" For vim: $HOME/.vimrc
 set expandtab
 set tabstop=4
 set softtabstop=4
@@ -13,6 +14,7 @@ set clipboard=unnamedplus,unnamed " Use system wide clipboard by default
 set conceallevel=0
 
 " See https://github.com/junegunn/vim-plug
+" For vim: '~/.vim/plugged'
 call plug#begin('~/.config/nvim/plugged')
 Plug 'tpope/vim-fugitive' " git
 Plug 'scrooloose/nerdtree' " tree view
